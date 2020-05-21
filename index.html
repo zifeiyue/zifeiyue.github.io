@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="cn">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>羊驼过河</title>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/crimson.js"></script>
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<body>
+	<img src="arrow.png" id="arrow">
+	<div class="about" title="点老子！" onclick="showAbout()">?</div>
+	<div id="msgbox" class="pop-box">
+		<span class="caption">专治各种傻逼伸手党</span>
+		<div class="thanks copyBaidu">
+			*本站与百度公司没有任何联系，baidu以及本站出现的百度公司Logo是百度公司的商标。</div>
+
+		<div class="readit" onclick="hideAbout();">我知道了</div>
+
+	</div>
+	<div id="mask" class="mask"></div>
+	<a class="mikubutton" href="https://miku.scarlet-devil.com" >Mikutap</a>
+	<div class="container">
+		<div>
+			<h1 class="title">
+				草泥马不会<img src="baidu_logo.png" class="logo" onclick="hitokotoff()">么
+			</h1>
+			<span class="search-box"> 
+				<input type="text" class="search-text" id="kw">
+				<button class="btn" id="search">摆渡一下</button>
+			</span>
+		</div>
+		<div id="instructions">输入一个问题，然后按摆渡一下</div>
+		<div class="link" style="display: none" id="link">
+			<input type="text" readonly="" id="crimsonLink" class="copyable">
+			<div>
+				<a class="link_button" href="javascript:void(0);" id="copy" data-clipboard-action="copy" data-clipboard-target="#crimsonLink">复制</a>
+				<a class="link_button" href="javascript:void(0);" id="go" target="_blank">预览</a>
+			</div>
+		</div>
+		<div class="">『<ssc id="hitokoto"></ssc>』-「<ssc id="hitokoto_from"></ssc>」</div>
+	</div>
+</body>
+</html>
