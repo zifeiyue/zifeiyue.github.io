@@ -1,19 +1,19 @@
 #nikke的hosts配置，全端可用，具体可以查阅[https://bbs.nga.cn/read.php?tid=38942090][https://bbs.nga.cn/read.php?tid=38947038]
 
 
-43.132.248.209 jp-lobby.nikke-kr.com #UHE_
-43.132.248.209 kr-lobby.nikke-kr.com #UHE_
-43.132.248.209 global-lobby.nikke-kr.com #UHE_
-43.132.248.209 sea-lobby.nikke-kr.com #UHE_
-43.132.248.209 hmt-lobby.nikke-kr.com #UHE_
-43.132.248.209 jp-match.nikke-kr.com #UHE_
-43.132.248.209 us-match.nikke-kr.com #UHE_
-43.132.248.209 kr-match.nikke-kr.com #UHE_
-43.132.248.209 global-match.nikke-kr.com #UHE_
-43.132.248.209 sea-match.nikke-kr.com #UHE_
-43.132.248.209 hmt-match.nikke-kr.com #UHE_
-43.132.248.209 aws-na.intlgame.com #UHE_
+43.152.156.90 us-match.nikke-kr.com #UHE_
+43.152.156.90 jp-lobby.nikke-kr.com #UHE_
+43.152.156.90 kr-lobby.nikke-kr.com #UHE_
+43.152.156.90 global-lobby.nikke-kr.com #UHE_
+43.152.156.90 sea-lobby.nikke-kr.com #UHE_
+43.152.156.90 hmt-lobby.nikke-kr.com #UHE_
+43.152.156.90 jp-match.nikke-kr.com #UHE_
+43.152.156.90 kr-match.nikke-kr.com #UHE_
+43.152.156.90 global-match.nikke-kr.com #UHE_
+43.152.156.90 sea-match.nikke-kr.com #UHE_
+43.152.156.90 hmt-match.nikke-kr.com #UHE_
+43.152.156.90 aws-na.intlgame.com #UHE_
 
-34.104.32.16 cloud.nikke-kr.com #UHE_
+43.152.14.112 cloud.nikke-kr.com #UHE_
+43.152.14.112 nikke-en.com #UHE_
 
-43.152.136.177 nikke-en.com #UHE_
